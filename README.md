@@ -23,7 +23,7 @@ This project can be cloned and set up locally for exploration or integration.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-routing-project.git
+   git clone https://github.com/ataurwd/react-routing-project.git
    ```
 2. Navigate to the project directory:
    ```bash
