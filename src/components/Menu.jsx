@@ -7,7 +7,7 @@ const Menu = () => {
         <div className=''>
            <div className="navbar bg-base-100 px-20">
             <div className="flex-1">
-                <NavLink to="/" className="text-2xl font-bold text-primary">MyLogo</NavLink>
+                <NavLink to="/" className="text-2xl font-bold text-primary">DevZone</NavLink>
             </div>
 
             <div className="flex-none hidden md:flex space-x-6">
