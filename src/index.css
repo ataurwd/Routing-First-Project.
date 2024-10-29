@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    color: green;
+}
+
+.bgGradientPriceing{
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+.headingBG{
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
