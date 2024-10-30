@@ -10,12 +10,12 @@ const Menu = () => {
                 <NavLink to="/" className="text-2xl font-bold text-primary">DevZone</NavLink>
             </div>
 
-            <div className="flex-none hidden md:flex space-x-6">
+            <nav className="flex-none hidden md:flex space-x-6">
                 <NavLink to="/home" className="hover:text-primary">Home</NavLink>
                 <NavLink to="/about" className="hover:text-primary">About</NavLink>
-                <NavLink to="/service" className="hover:text-primary">Services</NavLink>
+                <NavLink to="/service" className="hover:text-primary">Team</NavLink>
                 <NavLink to="/contact" className="hover:text-primary">Contact</NavLink>
-            </div>
+            </nav>
         </div>
         <Outlet/>
         <Footer/>

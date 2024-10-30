@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.active{
+nav a.active{
     color: green;
 }
 
@@ -11,4 +11,14 @@
 }
 .headingBG{
     background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+/* for slider bottom icon */
+.awssld__bullets {
+    bottom: 10px !important;
+    z-index: 10;
+}
+.awssld__bullets .awssld__bullets--active {
+    transform: scale(1.5) !important;
+    background: #ffffff !important;
 }

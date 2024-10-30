@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import ErrorMsg from "../src/components/ErrorMsg";
 
 function App() {
+
   const route = createBrowserRouter([
     {
       path: "/",
@@ -33,6 +34,7 @@ function App() {
         },
         {
           path: "/service",
+          loader: () => fetch('teamData.json'),
           element: <Services />
         },
         {
