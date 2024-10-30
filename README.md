@@ -22,18 +22,19 @@ This project can be cloned and set up locally for exploration or integration.
 ### Installation
 
 1. Clone the repository:
+2. git clone
    ```bash
-   git clone https://github.com/your-username/react-routing-project.git
+   https://github.com/ataurwd/Routing-First-Project..git
    ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```bash
    cd react-routing-project
    ```
-3. Install the necessary dependencies:
+4. Install the necessary dependencies:
    ```bash
    npm install
    ```
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm run dev
    ```
